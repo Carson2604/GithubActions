@@ -57,7 +57,7 @@ public class Addition
         Assert.AreEqual(6, Program.Multiply("3", "2"));
         Assert.AreEqual(0, Program.Multiply("0", "5"));
         Assert.AreEqual(20, Program.Multiply("4", "5"));
-        Assert.AreEqual(20, Program.Multiply("3", "5")); // This one is wrong on purpose
+        Assert.AreEqual(15, Program.Multiply("3", "5")); 
     }
 
     [TestMethod]
